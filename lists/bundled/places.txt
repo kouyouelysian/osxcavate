@@ -1,0 +1,9 @@
+INCLUDE:
+/Users/<<<user>>>/Library/Preferences
+/Users/<<<user>>>/Library/Application Support
+/Users/<<<user>>>/Library/Containers
+/Users/<<<user>>>/Library/Caches
+/Applications
+IGNORE:
+/Applications/Xcode.app
+/Applications/iTunes.app
