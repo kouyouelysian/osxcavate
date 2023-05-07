@@ -1,5 +1,5 @@
 from modules import common, actions, classes, cli
-import sys, os, math, plistlib, signal, pprint
+import sys, os, math, plistlib, signal, pprint, json
  
 
 
@@ -193,7 +193,7 @@ def rank_plists(args=None, h=False):
 							if tempg > len(groups):
 								print("[i]",tempg,"out of possible groups range")
 							else:
-								outgroups.append(tempg)
+								outgroups.append(groups[tempg])
 						data_row["groups"]=outgroups
 						break
 			# set rank
@@ -213,7 +213,13 @@ def rank_plists(args=None, h=False):
 
 			out_data.append(data_row)
 
-		print(out_data)
+		name = "rankings_"+str(common.timestmap())+".json"
+		fname = os.path.join(os.path.join(os.getcwd(), "exports/rankplists"), name)
+		out = common.str_to_file(fname, json.dumps(out_data, indent=4), v)
+
+		clear()
+
+		print("ranking finished successfully")
 
 	return
 

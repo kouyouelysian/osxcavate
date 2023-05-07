@@ -9,25 +9,6 @@ DATA STORAGE CLASSES USED THROUGHOUT THE PROJECT
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
-'''
-class Direntry(object):
-	"""
-	A single directory entry
-	"""
-	def __init__(directory=None, files=None, search_place=None):
-		self.directory = directory
-		self.files = files
-		self.search_place = search_place
-
-	def list_filepaths(self):
-		out = []
-		for f in files:
-			out.append(os.path.join(search_place, directory, f))
-		return out 
-'''
-
-#--------------------------------------------------------------------------------------------------------------------------------
-
 class Dirlist(object):
 	"""
 	contains "data" - list of registered {"directory":<directorystring>, "files":[file1, file2..], "search_place:<searched_dir>"}
@@ -40,42 +21,15 @@ class Dirlist(object):
 		self.username = username # username used during search
 		self.verbose = verbose # verboseness level
 
-	def owo(self):
-		""" instance tester """
-		print("uwu")
-
-	def export_directories(self, name, method="txt"):
-		""" exports list of registered folders """
-		if (method == "txt"):
-			if (vvv(self.verbose)):
-				print("\n--- exporting directories stored in dirlist\n")
-			fname = os.path.join(os.path.join(os.getcwd(), "exports/txt/"), name+"."+method)
-			
-			strings_to_write = []
-			counter = 0
-			for d in self.data:
-				a = d["search_place"]
-				b = d["directory"]
-				outpath = a + b
-				if (vvv(self.verbose)):
-					print("found "+ outpath +"....")
-				strings_to_write.append(outpath+"\n")
-				counter += 1
-
-			common.strlist_to_file(fname, strings_to_write, self.verbose)
-
-			if (vv(self.verbose)):
-				print(".txt directory list export OK, wrote "+str(counter)+" lines to "+fname)
-
 	def export_json(self, name):
 		"""
 		exports the structure to a .json file
 		True on success, False on bad
 		"""
 		if (vv(self.verbose)):
-			print("\n--- exporting dirlist as json\n")
+			print("\n--- exporting dirlist to",name,"\n")
 		try:
-			fname = os.path.join(os.path.join(os.getcwd(), "exports/json"), name+".json")
+			fname = os.path.join(os.path.join(os.getcwd(), "exports/dirlist_dump"), name+".json")
 		except Exception as e:
 			print("[x] Could not write to destination ["+fname+"], check if the folders exist")
 			return False
@@ -86,13 +40,13 @@ class Dirlist(object):
 			print(".json master export OK, wrote to "+fname)
 		return True
 
-	def import_json(self, name, location="datasource/json"):
+	def import_json(self, name, location="datasource/dirlist_dump"):
 		"""
 		imports to the structure from a .json file
 		True on success, False on bad
 		"""
 		if (vvv(self.verbose)):
-			print("\n--- loading to dirlist from json\n")
+			print("\n--- loading to dirlist from",name,"\n")
 		fname = os.path.join(os.path.join(os.getcwd(), location), name)
 		if not os.path.isfile(fname):
 			if v(self.verbose):
