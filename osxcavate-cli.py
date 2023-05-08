@@ -225,6 +225,39 @@ def rank_plists(args=None, h=False):
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
+def excavate(args=None,h=False):
+	""" excavates interesting files by the built-in .json list, exports to /exports/excavate """
+	global v
+
+	if (h):
+		print("[?] excavate <username>\n    gathers known artefacts from this system for a particular user")
+		return
+
+	params_description = [\
+	("Please, input a valid username to export artefacts of","user",None)\
+	]
+
+	params = cli.get_params(params_description, args)
+	if params == None:
+		return
+
+	user = params[0]
+	export_path = os.path.join(os.getcwd(), "exports/excavate", "excavation_"+str(common.timestmap()))
+	os.makedirs(export_path)
+	for subf in ["s","a","b","c"]:
+		os.makedirs(os.path.join(export_path, subf))
+
+	artefacts_store = os.path.join(os.getcwd(), "lists/bundled/files.json")
+	fh = open(artefacts_store, 'r')
+	contents = fh.read()
+	fh.close()
+	artefacts = json.loads(contents)
+	
+	actions.export_artefacts(user, artefacts, export_path, v)
+
+
+#--------------------------------------------------------------------------------------------------------------------------------
+
 def common_files(args=None,h=False):
 	
 	""" finds overlapping files between json dumps from /datasource/json """
@@ -294,14 +327,16 @@ menu = {
 	"clear": clear,
 	"gatherall": gather_artefacts_all,
 	"commonfiles": common_files,
-	"rankplists": rank_plists
+	"rankplists": rank_plists,
+	"excavate": excavate,
 }
 menu = dict(sorted(menu.items()))
 
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
-print("\n\n================ OSXCAVATE ================\ntype 'help' to see available commands...\n\n")
+clear()
+print("================ OSXCAVATE ================\ntype 'help' to see available commands...\n\n")
 cli_loop()
 
 #--------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,613 @@
+[
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.FontRegistry.user.plist",
+        "groups": [
+            "path",
+            "datetime"
+        ],
+        "rank": "b",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.GEO.plist",
+        "groups": [
+            "geo",
+            "datetime",
+            "web",
+            "data"
+        ],
+        "rank": "s",
+        "comment": "last network etag"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.FolderActionsDispatcher.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.universalaccessAuthWarning.plist",
+        "groups": [
+            "path",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "lists applications authorized for full disk access"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.AppleMultitouchMouse.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "mouse preferences"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.AppleMultitouchTrackpad.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "user trackpad settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.iApps.plist",
+        "groups": [
+            "path"
+        ],
+        "rank": "c",
+        "comment": "iphoto and other native apps' default photo libraries"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.FaceTime.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "may contain data on externally connected cameras/microphones"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.calculateframework.plist",
+        "groups": [
+            "datetime",
+            "other"
+        ],
+        "rank": "c",
+        "comment": "last currency converter refresh date and currencies' rates for the day"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.imessage.bag.plist",
+        "groups": [
+            "datetime",
+            "web",
+            "data"
+        ],
+        "rank": "s",
+        "comment": "potential imessage caches"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.madrid.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.UserAccountUpdater.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "shows if the library folder is hidden from user"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.CoreGraphics.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "screen grayscale/invert settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.speech.voice.prefs.plist",
+        "groups": [
+            "datetime",
+            "other"
+        ],
+        "rank": "c",
+        "comment": "text-to-speech stats"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.accountsd.plist",
+        "groups": [
+            "data",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "has to do with the local account system"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.Safari.plist",
+        "groups": [
+            "geo",
+            "datetime",
+            "data"
+        ],
+        "rank": "s",
+        "comment": "some of the safari settings/stats"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.Console.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "console settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.suggestions.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "spotlight suggestions related"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.coreauthd.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "coreauthd daemon related"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.imservice.ids.iMessage.plist",
+        "groups": [
+            "name",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "potential imessage account info"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "bluetooth mouse settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.systempreferences.plist",
+        "groups": [
+            "data",
+            "path"
+        ],
+        "rank": "b",
+        "comment": "general user system settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.dock.plist",
+        "groups": [
+            "datetime",
+            "data",
+            "path"
+        ],
+        "rank": "a",
+        "comment": "dock preferences"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.SystemProfiler.plist",
+        "groups": [
+            "geo",
+            "data",
+            "other"
+        ],
+        "rank": "a",
+        "comment": "may contain previously used regions"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/loginwindow.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.talagent.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": "datetime related to the transparent app lifecycle agent (autosave + versions thing)"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.commerce.plist",
+        "groups": [
+            "datetime",
+            "web",
+            "other"
+        ],
+        "rank": "a",
+        "comment": "has apple id email address"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.AddressBook.plist",
+        "groups": [
+            "geo",
+            "datetime"
+        ],
+        "rank": "b",
+        "comment": "may have previously used country codes"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.icloud.fmfd.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "contains some aps key, sensitivity unknown"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.audio.AudioMIDISetup.plist",
+        "groups": [
+            "datetime",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "audio and midi settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.TelephonyUtilities.plist",
+        "groups": [
+            "data",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "telephony settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.facetime.bag.plist",
+        "groups": [
+            "datetime",
+            "web",
+            "data",
+            "other"
+        ],
+        "rank": "s",
+        "comment": "may contain facetime cache data etc"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.passd.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": "related to the apple pay and wallet daemon (passd)"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.assistant.plist",
+        "groups": [
+            "geo",
+            "datetime"
+        ],
+        "rank": "b",
+        "comment": "related to apple's assistant (enhanced voiceover service)"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.iCal.plist",
+        "groups": [
+            "geo",
+            "datetime",
+            "other"
+        ],
+        "rank": "a",
+        "comment": "calendar app settings memory; has last view's timezone"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.commerce.knownclients.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "app store related, sensitivity undefined"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.stockholm.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/.GlobalPreferences.plist",
+        "groups": [
+            "geo",
+            "language",
+            "datetime",
+            "web",
+            "data",
+            "path",
+            "other"
+        ],
+        "rank": "s",
+        "comment": "user's global preferences. has a non-exhaustive list of devices ever connected, rich language data, etc"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.driver.AppleHIDMouse.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "hid mouse settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.ncprefs.plist",
+        "groups": [
+            "data",
+            "path"
+        ],
+        "rank": "b",
+        "comment": "appears to list the currently installed apps in /applications"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.ActivityMonitor.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "activity monitor related"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.Safari.SafeBrowsing.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.textInput.keyboardServices.textReplacement.plist",
+        "groups": [
+            "name"
+        ],
+        "rank": "c",
+        "comment": "contains username"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.iTunes.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "may have recent itunes searches"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.java.util.prefs.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "has names of ever configured java applications"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.security.cloudkeychainproxy3.keysToRegister.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.coreservices.uiagent.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "has names of some of the apps that have been ran"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.HIToolbox.plist",
+        "groups": [
+            "language",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "has installed input methods and the 2 last active methods"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.ServicesMenu.Services.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "registered translations of the general (right click) context menu entries"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.SetupAssistant.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "has some flags related to events such as did user see the privacy statement"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "bluetooth multitouch mouse settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.xpc.activity2.plist",
+        "groups": [
+            "datetime",
+            "other"
+        ],
+        "rank": "b",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.systemuiserver.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "topmost bar left side selected widgets list"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.Terminal.plist",
+        "groups": [
+            "data",
+            "other"
+        ],
+        "rank": "b",
+        "comment": "terminal settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.universalaccess.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "universal access settings"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.DiskUtility.plist",
+        "groups": [
+            "data",
+            "path",
+            "other"
+        ],
+        "rank": "a",
+        "comment": "has a root directory, presumably last viewed in disk utility"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/org.cups.PrintingPrefs.plist",
+        "groups": [
+            "ip"
+        ],
+        "rank": "c",
+        "comment": "has ips of last used printers"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.Spotlight.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": "timestamp likely the last time of spotlight launch"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.finder.plist",
+        "groups": [
+            "ip",
+            "data",
+            "path",
+            "other"
+        ],
+        "rank": "s",
+        "comment": "finder datastore - has goto fields' history, numerous local and remote paths, user settings, etc"
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": "has bindings of formats to programs, may contain uninstalled programs' names"
+    },
+    {
+        "path": "/Users/astro/Library/Application Support/icdd/deviceInfoCache.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": "may contain a device info cache dump"
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.languageassetd/Data/Library/Caches/com.apple.DictionaryServices/DictionaryCache.plist",
+        "groups": [
+            "language",
+            "other"
+        ],
+        "rank": "c",
+        "comment": "lists dictionary sources, directly related to selected input sources"
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Preferences/com.apple.QuickTimePlayerX.plist",
+        "groups": [
+            "path"
+        ],
+        "rank": "c",
+        "comment": "may have path of (possibly unexistent) files accessed with quicktime"
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.siri.media-indexer/Data/Library/Preferences/com.apple.siri.media-indexer.plist",
+        "groups": [
+            "datetime"
+        ],
+        "rank": "c",
+        "comment": "timestamps of siri's media indexing routine execution"
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.TextEdit/Data/Library/Saved Application State/com.apple.TextEdit.savedState/windows.plist",
+        "groups": [
+            "path"
+        ],
+        "rank": "c",
+        "comment": "has a path to a .txt file accessed with textedit"
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.Preview/Data/Library/Preferences/com.apple.Preview.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Containers/com.apple.Preview/Data/Library/Preferences/com.apple.Preview.ViewState.plist",
+        "groups": [
+            "data"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Caches/GeoServices/networkDefaults.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Caches/GeoServices/Resources/supportedCountriesTraffic-5.plist",
+        "groups": null,
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Caches/GeoServices/Resources/supportedCountriesDirections-20.plist",
+        "groups": [
+            "geo"
+        ],
+        "rank": "c",
+        "comment": null
+    },
+    {
+        "path": "/Users/astro/Library/Preferences/com.apple.AppStore.plist",
+        "groups": [
+            "other"
+        ],
+        "rank": "c",
+        "comment": null
+    }
+]

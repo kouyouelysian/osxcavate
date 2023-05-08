@@ -1,4 +1,4 @@
-import os
+import os, shutil
 from modules import common, classes
 from modules.common import v, vv, vvv
 
@@ -138,3 +138,30 @@ def overlapping_files(source="./datasource/json", method="json", tolerance=0, ve
 
 
 #--------------------------------------------------------------------------------------------------------------------------------
+
+def export_artefacts(username, artefacts, export_path, verbose="v"):
+
+	counter = 0
+
+	for a in artefacts:
+		filepath = common.template_fill_field(a["path"], "user", username)
+		outdir = os.path.join(export_path, a["rank"])
+		
+		try:
+			shutil.copy2(filepath, outdir)
+		except:
+			if vv(verbose):
+				print("was unable to copy file",filepath)
+		else:
+			if vvv(verbose):
+				print("copied",filepath,"to",outdir)
+			counter += 1
+
+	if v(verbose):
+			print("excavated",counter,"files out of",len(artefacts),"listed")
+
+
+
+
+
+
