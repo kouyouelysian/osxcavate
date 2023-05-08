@@ -59,7 +59,7 @@ def scanplaces_plist(username, pseudonym=None, verbose="v"):
 	ARGUMENTS: username (string) - target user name of the computer, verbose (string) - verboseness level
 	RETURNS:   (list) of subdirectories
 	"""
-	return scanplaces_extension("plist", username, "lists/bundled/places.txt", pseudonym, verbose)
+	return scanplaces_extension("plist", username, os.path.join(os.getcwd(),"lists/bundled/places.txt"), pseudonym, verbose)
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
@@ -69,7 +69,7 @@ def scanplaces_sqlite(username, pseudonym=None, verbose="v"):
 	ARGUMENTS: username (target username of the computer), verbose (string) - verboseness level
 	RETURNS:   (list) of subdirectories
 	"""
-	return scanplaces_extension("sqlite", username, "lists/bundled/places.txt", pseudonym, verbose)
+	return scanplaces_extension("sqlite", username, os.path.join(os.getcwd(),"lists/bundled/places.txt"), pseudonym, verbose)
 
 #--------------------------------------------------------------------------------------------------------------------------------
 
