@@ -589,12 +589,6 @@
         "comment": null
     },
     {
-        "path": "/Users/<<<user>>>/Library/Caches/GeoServices/Resources/supportedCountriesTraffic-5.plist",
-        "groups": null,
-        "rank": "c",
-        "comment": null
-    },
-    {
         "path": "/Users/<<<user>>>/Library/Caches/GeoServices/Resources/supportedCountriesDirections-20.plist",
         "groups": [
             "geo"
